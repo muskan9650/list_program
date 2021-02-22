@@ -1,0 +1,10 @@
+a=[1,2,3,4]
+i=0
+j=0
+while i<len(a):
+    if a[i]>a[j]:
+        print(a[i],a[j], end="")
+    else:
+        print(a[j],a[i], end="")
+    i=i+2
+    j=j+2
